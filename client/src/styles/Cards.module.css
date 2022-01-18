@@ -1,0 +1,44 @@
+/* .background {
+  background-image: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Images/home1.jpg");
+  height: 100vh;
+  background-size: 100%;
+  background-attachment: scroll;
+  position: fixed;
+} */
+@font-face {
+  font-family: "Sticky Notes";
+  src: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Fonts/Sticky Notes.otf");
+}
+.cards {
+  display: inline-block;
+  width: 300px;
+  height: 370px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  overflow: hidden;
+  text-decoration: aliceblue;
+
+  font-size: 20px;
+  font-family: "Sticky Notes";
+  background-color: rgba(3, 3, 3, 0.678);
+  background-size: cover;
+  border-radius: 45px;
+}
+.cards:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}
+
+.image {
+  height: 200px;
+  width: 100%;
+
+  /* border-radius: 45xp; */
+}
+
+.Link {
+  color: rgb(230, 214, 214);
+  text-decoration: none;
+}

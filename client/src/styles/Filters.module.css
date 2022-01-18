@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Sticky Notes";
+  src: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Fonts/Sticky Notes.otf");
+}
+.divStyle {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filters {
+  font-size: 20px;
+  font-family: "Sticky Notes";
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(218, 69, 42, 0.837);
+  border: none;
+  text-decoration: ivory;
+}
+.filters:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}
+.text {
+  font-size: 20px;
+  font-family: "Sticky Notes";
+  text-decoration: ivory;
+}

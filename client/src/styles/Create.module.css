@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Sticky Notes";
+  src: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Fonts/Sticky Notes.otf");
+}
+.backgroundDetails {
+  background-image: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Images/Amazoncom Cookbook People Recipe Cards 4x6 Velvet Vintage.jpg");
+  background-size: cover;
+  background-position-x: center;
+  height: 100vh;
+}
+.form {
+  margin-top: 50px;
+  justify-content: center;
+  display: inline-block;
+  justify-content: space-between;
+  display: flexbox;
+  flex-direction: column;
+  column-count: 2;
+  column-rule: 1px solid transparent;
+  /* margin-top: -45px; */
+  position: sticky;
+  /* display: inline-flexbox; */
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+
+.form input {
+  width: 300px;
+  height: 30px;
+  font-family: "Sticky Notes";
+  padding-top: 30px;
+  font-size: 60px;
+  border-radius: 45xp;
+}
+.btnForm1 {
+  margin-top: 150px;
+  width: 150px;
+  height: 30px;
+  font-family: "Sticky Notes";
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: 0px;
+  margin-right: 10px;
+  background-color: rgba(175, 50, 4, 0.932);
+  border-radius: 45px;
+  border-color: rgb(255, 255, 255);
+}
+.btnForm1:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}
+.btnForm2 {
+  margin-top: 50px;
+  width: 250px;
+  height: 60px;
+  font-family: "Sticky Notes";
+  font-size: 40px;
+  text-decoration: paleturquoise;
+  letter-spacing: 2px;
+  margin-left: 0px;
+  margin-right: 10px;
+  background-color: rgba(182, 154, 29, 0.932);
+  border-radius: 45px;
+  border-color: rgb(255, 255, 255);
+}
+.btnForm2:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}
+.title {
+  margin-top: 60px;
+  font-family: "Sticky Notes";
+  font-size: 80px;
+}
+.diettitle {
+  margin-top: 60px;
+  font-family: "Sticky Notes";
+  font-size: 80px;
+  padding-top: 30px;
+  text-align: center;
+}
+.resumeinst {
+  margin-top: 60px;
+  font-family: "Sticky Notes";
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.dietoption {
+  font-family: "Sticky Notes";
+  font-size: 30px;
+}
+/* .titleinput {
+  width: 400px;
+  height: 50px;
+  font-family: "Sticky Notes";
+  padding-top: 40px;
+  font-size: 80px;
+  border-radius: 45xp;
+} */
+.inputdiet {
+  width: 300px;
+  height: 60px;
+  font-family: "Sticky Notes";
+  /* padding-top: 30px; */
+  font-size: 30px;
+  border-radius: 45xp;
+}
+.diets {
+  display: inline-block;
+  margin-left: 30px;
+}
+.alerts {
+  font-family: "Sticky Notes";
+  font-size: 50px;
+}
+.text {
+  font-family: "Sticky Notes";
+  font-size: 40px;
+  /* margin-top: 60px; */
+  height: 150px;
+  width: 400px;
+}
+.dietszone {
+  display: inline-block;
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Make the Best - Personal Use";
+  src: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Fonts/Make the Best - Personal Use.otf");
+}
+
+.background {
+  background-image: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Images/Landing 2.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -20xp;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul {
+  margin-top: -30%;
+}
+.ul h1 {
+  font-family: "Make the Best - Personal Use";
+  font-size: 120px;
+  width: 900px;
+  letter-spacing: 6px;
+  margin-left: 40px;
+  margin-bottom: 100 px;
+}
+.button {
+  font-family: "Make the Best - Personal Use";
+  width: 360px;
+  height: 120px;
+  margin-top: px;
+  margin-left: 0px;
+  justify-content: flex-end;
+
+  font-size: 65px;
+  text-align: center;
+  border-radius: 40px;
+  color: rgb(12, 10, 9);
+  background-color: rgba(192, 157, 107, 0.918);
+  border-color: rgba(211, 103, 3, 0.692);
+}
+.button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}

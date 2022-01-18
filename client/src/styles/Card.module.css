@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Sticky Notes";
+  src: url("C:/Users/Kaori/Desktop/PI-Food-main/client/src/Fonts/Sticky Notes.otf");
+}
+.image {
+  height: 275px;
+  width: 450px;
+  border-radius: 45px;
+  margin-right: 90px;
+}
+.btn {
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+  font-family: "Sticky Notes";
+  font-size: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+  background-color: rgba(148, 43, 5, 0.356);
+  border-radius: 45px;
+  border-color: rgb(255, 255, 255);
+}
+.btn:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}
+.background {
+  display: inline-block;
+
+  justify-content: center;
+  text-align: center;
+
+  background-color: rgba(139, 41, 5, 0.253);
+}
+
+.head h1 {
+  font-family: "Sticky Notes";
+  font-size: 70px;
+  margin-right: 150px;
+  margin-top: 60px;
+  width: 600px;
+  text-decoration: rgb(255, 255, 240);
+}
+.h3 {
+  font-family: "Sticky Notes";
+  font-size: 40px;
+  display: flexbox;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-decoration: ivory;
+}
+.h2 {
+  font-family: "Sticky Notes";
+  font-size: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  text-decoration: ivory;
+}
+.h4 {
+  font-family: "Sticky Notes";
+  font-size: 40px;
+  display: flexbox;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -50px;
+  text-decoration: ivory;
+}
+.data {
+  display: inline-flexbox;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-around;
+  text-align: center;
+  /* background-color: rgba(139, 41, 5, 0.253); */
+}
+.data2 {
+  display: inline-flex;
+}
+.head {
+  display: inline-flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+.activities {
+  background-color: rgba(184, 135, 11, 0.116);
+}

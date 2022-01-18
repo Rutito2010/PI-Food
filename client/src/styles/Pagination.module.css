@@ -1,0 +1,24 @@
+.pagination {
+  display: flexbox;
+}
+
+.paginationButton {
+  background-color: rgb(177, 80, 16);
+  border-color: transparent;
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+  border-radius: 100%;
+  justify-content: center;
+  color: white;
+}
+.paginationButton:active {
+  border-color: blanchedalmond;
+}
+.espeshial {
+  border-color: blanchedalmond;
+}
+.paginationButton:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}
